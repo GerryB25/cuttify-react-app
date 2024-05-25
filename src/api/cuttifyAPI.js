@@ -9,7 +9,7 @@ export async function CutterAPI (formData) {
   }
 
   try {
-    const shortLink = await fetch('https://cuttify-url-api.vercel.app/api/shortener', {
+    const shortLink = await fetch('https://cutfy.vercel.app/api/shortener', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

@@ -3,6 +3,7 @@ import CopyIcon from '../assets/copy-icon.svg'
 import Whatsapp from '../assets/whatsapp.svg'
 import Telegram from '../assets/telegram.svg'
 import QRCode from 'react-qr-code'
+import DownloadIcon from '../assets/download-icon.svg'
 import { AlertaToast } from '../lib/toastyAlert'
 import '../assets/css/cuttifyInput.css'
 
@@ -44,7 +45,7 @@ export function Resultados ({ shortLink }) {
         <div className="qr-box">
           <QRCode value={qrlink}/>
           <a className='download-qr' onClick={QRAction} download='qr-image.png' title='Descargar QR' id='qr-button'>
-            <img src="/src/assets/download-icon.svg" alt="Descargar QR" />
+            <img src={DownloadIcon} alt="Descargar QR" />
           </a>
         </div>
         <div className='link-box'>

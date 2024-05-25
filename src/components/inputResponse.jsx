@@ -44,7 +44,7 @@ export function Resultados ({ shortLink }) {
         <div className="qr-box">
           <QRCode value={qrlink}/>
           <a className='download-qr' onClick={QRAction} download='qr-image.png' title='Descargar QR' id='qr-button'>
-            <img src="/src/client/assets/download-icon.svg" alt="Descargar QR" />
+            <img src="/src/assets/download-icon.svg" alt="Descargar QR" />
           </a>
         </div>
         <div className='link-box'>

@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #0A2F59;
+    --second-color: #3B6FB9;
+    --third-color: #7CA3EA;
+    --text-black: #222526;
+    --contrast-color: #222526;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url(/fonts/Lexend-VariableFont_wght.ttf) format('woff2');
+    src: url(/fonts/Lexend-VariableFont_wght.ttf) format('woff');
+    src: url(/fonts/Lexend-VariableFont_wght.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lexend', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scrollbar-width: none;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #060C23 70%, #173089 100%);
+    min-height: 100vh;
+}

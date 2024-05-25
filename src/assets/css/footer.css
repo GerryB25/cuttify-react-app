@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    color: white;
+    margin: 2rem 0 2rem 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.foot-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+
+.foot-icon:hover {
+    filter: drop-shadow(0 0 5px white);
+}

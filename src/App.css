@@ -1,0 +1,11 @@
+main {
+    padding-inline: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    opacity: 0;
+}

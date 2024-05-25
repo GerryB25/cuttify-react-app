@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #0A2F59;
+    --second-color: #3B6FB9;
+    --third-color: #7CA3EA;
+    --text-black: #222526;
+    --contrast-color: #E83731;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 220px;
+}
+
+.main-title {
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+}
+
+.sub-texto {
+    color: var(--third-color);
+    text-align: center;
+    font-weight: 600;
+    line-height: 3px;
+}
